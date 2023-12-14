@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    padding-top: 50px;   
+    border: solid 1px red;
+    height: 900px;
+    margin-top: 0px;
+    background: url(./bg-motor.jpg) no-repeat top center/cover;
+    color: #ffffff;
+
+}
+#container h1 {
+    font-size: 25px black;
+    border: 3px solid #cacaca42;
+    border-radius: 8px;
+}
+#inputs p1{
+    border: solid 1px blue;
+}
+
+#inputs {
+    display: block;
+    height: 900px;
+    text-align: center;
+    border: solid 1px green;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    
+}
+#hp {
+    height: 30px;
+    width: 70px;
+    color: black;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 4px;
+    background-color: #ffffff;
+
+}
+#ress {
+    height: 20px;
+    width: 30px;
+}
+#res {
+    position: center absolute;
+    height: 30px;
+    width: 70px;
+    color: black;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+#container p1{
+    font-size: 20px;
+    color: #ffffff;
+    margin: auto;
+    height: 30px;
+    width: 110px;
+    border: 3px solid #cacaca42;
+    border-radius: 8px;
+    
+}
+#container p1:hover{
+    font-size: 19px;
+    color: black;
+    margin: auto;
+    background-color:rgb(237, 229, 229);
+    height: 30px;
+    width: 110px;
+    border: 3px solid #cacaca42;
+    border-radius: 8px;
+
+}
+
+
+#container p{
+    font-size: 18px;
+    color: #ffffff;
+    margin: auto;
+    height: 30px;
+    width: 110px;
+    border: 3px solid #cacaca42;
+    border-radius: 8px;
+}
+
+#container p:hover{
+    font-size: 19px;
+    color: black;
+    margin: auto;
+    background-color:rgb(237, 229, 229);
+    height: 30px;
+    width: 110px;
+    border: 3px solid #cacaca42;
+    border-radius: 8px;
+
+}
+#shp1 {
+ 
+    height: 20px;
+    width: 30px;
+}
+#swhp1 {
+  
+    height: 20px;
+    width: 30px;
+}
+#shp2 {
+   
+    height: 20px;
+    width: 30px;
+}
+#swhp2 {
+  
+    height: 20px;
+    width: 30px;
+}
