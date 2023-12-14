@@ -9,14 +9,18 @@
     border: solid 1px red;
     height: 900px;
     margin-top: 0px;
-    background: url(./bg-motor.jpg) no-repeat top center/cover;
+    background: url(./assets/bg-motor.jpg) no-repeat top center/cover;
     color: #ffffff;
 
 }
 #container h1 {
+    margin: 0 auto;
     font-size: 25px black;
+    height: 150px;
+    width: 600px;
     border: 3px solid #cacaca42;
     border-radius: 8px;
+    backdrop-filter: blur(8px);
 }
 #inputs p1{
     border: solid 1px blue;
@@ -85,7 +89,7 @@
     color: #ffffff;
     margin: auto;
     height: 30px;
-    width: 110px;
+    width: 120px;
     border: 3px solid #cacaca42;
     border-radius: 8px;
 }
@@ -96,28 +100,28 @@
     margin: auto;
     background-color:rgb(237, 229, 229);
     height: 30px;
-    width: 110px;
+    width: 120px;
     border: 3px solid #cacaca42;
     border-radius: 8px;
 
 }
 #shp1 {
- 
+    margin: 0 auto;
     height: 20px;
     width: 30px;
 }
 #swhp1 {
-  
+    margin: 0 auto;
     height: 20px;
     width: 30px;
 }
 #shp2 {
-   
+    margin: 0 auto;
     height: 20px;
     width: 30px;
 }
 #swhp2 {
-  
+    margin: 0 auto;
     height: 20px;
     width: 30px;
 }
