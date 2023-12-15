@@ -9,22 +9,21 @@ function validate(){/*checagem e desabilitando demais checkbox*/
     if (box1.checked == 1){
         document.getElementById('markwhp').disabled = true;
         shp1.innerHTML = 'HP'
-        swhp2.innerHTML = 'WHP'
+        shp2.innerHTML = 'WHP'
     }
     else{
         document.getElementById('markwhp').disabled = false;
         shp1.innerHTML = ''
-        swhp2.innerHTML = ''
+        shp2.innerHTML = ''
     }
     if (box2.checked == 1){
         document.getElementById('markhp').disabled = true;
         shp2.innerHTML = 'HP'
-        swhp1.innerHTML = 'WHP'
+        shp1.innerHTML = 'WHP'
     }
     else{
         document.getElementById('markhp').disabled = false;
-        shp2.innerHTML = ''
-        swhp1.innerHTML = ''
+       
     }
     if (box3.checked == 1){
         document.getElementById('tractiont').disabled = true;
