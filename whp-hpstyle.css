@@ -115,4 +115,13 @@
     height: 20px;
     width: 30px;
 }
+#obsdianteira {
+    display: none;
+}
+#obstraseira {
+    display: none;
+}
+#obsintegral {
+    display: none;
+}
 

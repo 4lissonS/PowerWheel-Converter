@@ -8,11 +8,13 @@ var box5 = document.getElementById('tractioni');
 function validate(){/*checagem e desabilitando demais checkbox*/
     if (box1.checked == 1){
         document.getElementById('markwhp').disabled = true;
+        
         shp1.innerHTML = 'HP'
         shp2.innerHTML = 'WHP'
     }
     else{
         document.getElementById('markwhp').disabled = false;
+        
         shp1.innerHTML = ''
         shp2.innerHTML = ''
     }
@@ -28,23 +30,30 @@ function validate(){/*checagem e desabilitando demais checkbox*/
     if (box3.checked == 1){
         document.getElementById('tractiont').disabled = true;
         document.getElementById('tractioni').disabled = true;
+        document.getElementById('obsdianteira').style.display = 'block';
     }
     else{
         document.getElementById('tractiont').disabled = false;
         document.getElementById('tractioni').disabled = false;
+        document.getElementById('obsdianteira').style.display = 'none';
     }
     if (box4.checked == 1){
         document.getElementById('tractiond').disabled = true;
         document.getElementById('tractioni').disabled = true;
+        document.getElementById('obstraseira').style.display = 'block';
     }
     else{
         document.getElementById('tractiond').disabled = false;
+        document.getElementById('obstraseira').style.display = 'none';
     }
     if (box5.checked == 1){
         document.getElementById('tractiond').disabled = true;
         document.getElementById('tractiont').disabled = true;
+        document.getElementById('obsintegral').style.display = 'block';
     }
-    else{}
+    else{
+        document.getElementById('obsintegral').style.display = 'none';
+    }
 
 
 }
