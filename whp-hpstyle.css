@@ -6,10 +6,9 @@
 
 #container{
     padding-top: 50px;   
-    border: solid 1px red;
     height: 900px;
     margin-top: 0px;
-    background: url(./assets/bg-motor.jpg) no-repeat top center/cover;
+    background: url(./assets/blur-bgwheel.jpeg) no-repeat top center/cover;
     color: #ffffff;
 
 }
@@ -18,8 +17,6 @@
     font-size: 25px black;
     height: 150px;
     width: 600px;
-    border: 3px solid #cacaca42;
-    border-radius: 8px;
     backdrop-filter: blur(8px);
 }
 #inputs p1{
@@ -30,19 +27,19 @@
     display: block;
     height: 900px;
     text-align: center;
-    border: solid 1px green;
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     
 }
 #hp {
-    height: 30px;
-    width: 70px;
+    font-size: 25px;
+    height: 50px;
+    width: 120px;
     color: black;
     text-align: center;
     align-items: center;
     margin: auto;
-    border-radius: 4px;
+    border-radius: 25px;
     background-color: #ffffff;
 
 }
@@ -51,14 +48,13 @@
     width: 30px;
 }
 #res {
-    position: center absolute;
-    height: 30px;
-    width: 70px;
+    font-size: 25px;
+    height: 50px;
+    width: 120px;
     color: black;
-    text-align: center;
-    align-items: center;
     margin: auto;
-    border-radius: 4px;
+    padding-top: 8px;
+    border-radius: 25px;
     background-color: #ffffff;
 }
 #container p1{
