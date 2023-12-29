@@ -78,12 +78,17 @@
     border-radius: 8px;
 
 }
+#inputs p2{
+    font-size: 22px;
+    margin-top: 5px;
+}
 
 
 #container p{
     font-size: 18px;
     color: #ffffff;
     margin: auto;
+    margin-top: 10px;
     height: 30px;
     width: 120px;
     border: 3px solid #cacaca42;
@@ -94,6 +99,7 @@
     font-size: 19px;
     color: black;
     margin: auto;
+    margin-top: 10px;
     background-color:rgb(237, 229, 229);
     height: 30px;
     width: 120px;
@@ -101,6 +107,7 @@
     border-radius: 8px;
 
 }
+
 #shp1 {
     margin: 0 auto;
     height: 20px;
@@ -113,11 +120,16 @@
 }
 #obsdianteira {
     display: none;
+    margin-top: 40px;
+
 }
 #obstraseira {
     display: none;
+    margin-top: 40px;
 }
 #obsintegral {
     display: none;
+    margin-top: 40px;
 }
+
 

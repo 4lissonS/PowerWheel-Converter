@@ -7,8 +7,8 @@ var box5 = document.getElementById('tractioni');
 
 function validate(){/*checagem e desabilitando demais checkbox*/
     if (box1.checked == 1){
-        document.getElementById('markwhp').disabled = true;
-        
+        //document.getElementById('markwhp').disabled = true;
+        document.getElementById('markwhp').checked = 0;
         shp1.innerHTML = 'HP'
         shp2.innerHTML = 'WHP'
     }
@@ -19,12 +19,15 @@ function validate(){/*checagem e desabilitando demais checkbox*/
         shp2.innerHTML = ''
     }
     if (box2.checked == 1){
-        document.getElementById('markhp').disabled = true;
+        //document.getElementById('markhp').disabled = true;
+        document.getElementById('markhp').checked = 0;
+
         shp2.innerHTML = 'HP'
         shp1.innerHTML = 'WHP'
     }
     else{
-        document.getElementById('markhp').disabled = false;
+        //document.getElementById('markhp').disabled = false;
+        //document.getElementById('markhp').checked = 0;
        
     }
     if (box3.checked == 1){
