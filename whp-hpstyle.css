@@ -2,23 +2,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 #container{
     padding-top: 50px;   
-    height: 900px;
+    height: auto;
     margin-top: 0px;
-    background: url(./assets/blur-bgwheel.jpeg) no-repeat top center/cover;
+    background: url(./assets/bg-blurdark.jpeg) no-repeat top center/cover;
     color: #ffffff;
 
 }
-#container h1 {
+#container h1{
     margin: 0 auto;
-    font-size: 25px black;
-    height: 150px;
+    font-size: 30px;
+    height: 120px;
     width: 600px;
     backdrop-filter: blur(8px);
 }
+
 #inputs p1{
     border: solid 1px blue;
 }
@@ -35,7 +37,6 @@
     font-size: 25px;
     height: 50px;
     width: 120px;
-    color: black;
     text-align: center;
     align-items: center;
     margin: auto;
@@ -121,15 +122,17 @@
 #obsdianteira {
     display: none;
     margin-top: 40px;
-
+    font-size: 21px;
 }
 #obstraseira {
     display: none;
     margin-top: 40px;
+    font-size: 21px;
 }
 #obsintegral {
     display: none;
     margin-top: 40px;
+    font-size: 21px;
 }
 
 

@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PowerWheel Converter</title>
     <link rel="stylesheet" href="./whp-hpstyle.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
 </head>
 
 <body>
@@ -18,22 +22,22 @@
                 <div id="shp1"></div>         
                 <input type="number" name="hp-motor" id="hp" onkeyup="calc()"></br>
                 <div id="shp2"></div>
-                <div id="res"></div>
-                <input type="button" value="=" id="ress" onclick="calc()"></br>
+                <div id="res" value=""></div>
+                <input type="button" value="=" id="ress" onclick="salvarDados()"></br>
                 
                 <p1>
-                <input type="checkbox" name="checkhp" id="markhp" onclick="validate()">HP</p1>
+                <input class="checkbox" type="checkbox" name="checkhp" id="markhp" onclick="validate()">HP</p1>
                 <p1>
-                <input type="checkbox" name="chekwhp" id="markwhp" onclick="validate()">WHP</br></p1>
+                <input class="checkbox" type="checkbox" name="chekwhp" id="markwhp" onclick="validate()">WHP</br></p1>
                 <p2>Tração</p2></br>    
                 <p>
-                <input type="checkbox" name="dianteria" id="tractiond" onclick="validate()"> Dianteira</p>
+                <input class="checkbox" type="checkbox" name="dianteria" id="tractiond" onclick="validate()"> Dianteira</p>
 
                 <p>
-                <input type="checkbox" name="traseira" id="tractiont" onclick="validate()"> Traseira</p>
+                <input class="checkbox" type="checkbox" name="traseira" id="tractiont" onclick="validate()"> Traseira</p>
             
                 <p>
-                <input type="checkbox" name="integral" id="tractioni" onclick="validate()"> Integral</p>
+                <input class="checkbox" type="checkbox" name="integral" id="tractioni" onclick="validate()"> Integral</p>
             </div>
             <div id="obsdianteira">
                 <p3>• Tração Dianteira (FWD - Front-Wheel Drive):</br>
@@ -52,6 +56,7 @@
             
         </div>
     </div>
+    
     
     <script src="./whp-hpscript.js"></script>
     

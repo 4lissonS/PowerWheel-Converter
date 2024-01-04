@@ -106,3 +106,17 @@ function calc(){
     }
     else{}
 }
+function salvarDados(){
+    var userInput = document.getElementById('ress').value;
+        if (userInput.trim() !== ''){
+            localStorage.setItem('dadosUsuario',userInput);
+
+            document.getElementById('userInput', '');
+
+            window.alert(`Dados salvos! ${userInput}`);            
+        }
+        else{
+            window.alert('Sem dados para inserir!')
+
+        }
+        }
