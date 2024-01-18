@@ -19,11 +19,13 @@
             <div id="tipohp"></div>
             <div id="tipowhp"></div>  
             <div id="elements">
-                <div id="shp1"></div>         
-                <input type="number" name="hp-motor" id="hp" onkeyup="calc()"></br>
+                <p2>MODELO</p2></br>   
+                <input type="text" name="modelo" id="model" maxlength="16"></br>     
+                <div id="shp1"></div>
+                <input type="number" name="hp-motor" id="hp" onkeyup="calc()" maxlength="4"></br>
                 <div id="shp2"></div>
                 <div id="res" value=""></div>
-                <input type="button" value="=" id="ress" onclick="salvarDados()"></br>
+                <input type="button" value="=" id="ress" onclick="salvarDados('model')"></br>
                 
                 <p1>
                 <input class="checkbox" type="checkbox" name="checkhp" id="markhp" onclick="validate()">HP</p1>

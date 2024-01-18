@@ -107,16 +107,29 @@ function calc(){
     else{}
 }
 function salvarDados(){
-    var userInput = document.getElementById('ress').value;
+    var userInput = document.getElementById('model', 'hp').value;
         if (userInput.trim() !== ''){
-            localStorage.setItem('dadosUsuario',userInput);
+            localStorage.setItem('model',userInput);
+            localStorage.setItem('hp',userInput);
 
-            document.getElementById('userInput', '');
+            document.getElementById('model', '');
+            document.getElementById('hp', '');
 
-            window.alert(`Dados salvos! ${userInput}`);            
+            window.alert(`Modelo do carro: ${userInput}`);            
         }
         else{
             window.alert('Sem dados para inserir!')
 
         }
         }
+        
+/* Carrega os dados salvos anteriormente ao carregar a página
+window.onload = function() {
+    var dadosSalvos = localStorage.getItem('dadosUsuario');
+  
+    // Verifica se existem dados salvos
+    if (dadosSalvos) {
+      // Preenche o campo de entrada com os dados salvos
+      document.getElementById('userInput').value = dadosSalvos;
+    }
+  };*/
